@@ -1,7 +1,3 @@
-当然可以，以下是完整、专业、中英文双语对照（中文一行，英文一行）的 GitHub 工具介绍，已融合您提供的所有功能、设计风格与技术细节，适合作为 `muki` 项目的官方 README：
-
----
-
 # Muki
 
 <p align="center">
@@ -15,7 +11,8 @@
 </p>
 
 <p align="center">
-    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="200" alt="Muki Logo">
+    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="200" alt="![Uploading image.png…]()
+">
 </p>
 
 Muki 是一款专为红队作战设计的主动资产指纹识别工具。在信息收集阶段，Muki 能够帮助安全研究人员快速从 C 段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步的渗透测试。
