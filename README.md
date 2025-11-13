@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="200" alt="<img width="764" height="264" alt="image" src="https://github.com/user-attachments/assets/149466c5-c1b0-4df0-840a-fbaefc3e13a6" />
+    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="100" alt="<img width="464" height="264" alt="image" src="https://github.com/user-attachments/assets/149466c5-c1b0-4df0-840a-fbaefc3e13a6" />
 ">
 </p>
 
