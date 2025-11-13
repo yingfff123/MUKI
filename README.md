@@ -1,4 +1,4 @@
-# Muki
+<img width="764" height="264" alt="image" src="https://github.com/user-attachments/assets/fd331a9e-7628-462e-9189-3eb8387323c6" /># Muki
 
 <p align="center">
     <strong>一款全新的主动资产指纹识别工具</strong>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="200" alt="![Uploading image.png…]()
+    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="200" alt="<img width="764" height="264" alt="image" src="https://github.com/user-attachments/assets/149466c5-c1b0-4df0-840a-fbaefc3e13a6" />
 ">
 </p>
 
@@ -79,30 +79,27 @@ go build -o muki
 
 ```bash
 # 识别单个目标
-./muki -u http://example.com
+./muki finger -u http://example.com
 
 # 从文件批量识别（支持 IP 或域名）
-./muki -l targets.txt
+./muki finger -l targets.txt
 
-# 指定输出格式和文件
-./muki -l targets.txt -o result.xlsx -F xlsx
+# 指定输出格式和文件（不加-F默认是.xlsx格式）
+./muki finger -l targets.txt -o result.xlsx -F xlsx
 
 # 自定义线程数（建议 30~100，视网络环境调整）
-./muki -l targets.txt -T 50
+./muki finger -l targets.txt -T 50
 
 # 使用代理池（每行一个代理，支持 http/https/socks5）
-./muki -l targets.txt -P proxies.txt -T 40
+./muki finger -l targets.txt -P proxies.txt -T 40
 ```
-
+### 使用事例：
+./mukip finger -l ip-port.txt -o ip-fingeresult.xlsx -T 100
 ### 高级用法
 
 ```bash
 # 导出为 JSON 格式
-./muki -u http://example.com -F json -o result.json
-
-# 使用配置文件（可保存默认代理、线程、输出路径等）
-./muki --config ~/.muki.yaml -l targets.txt
-```
+./muki finger -u http://example.com -F json -o result.json
 
 ---
 
@@ -143,7 +140,7 @@ Flags:
 
 ## 🤝 贡献
 
-欢迎提交 Issue 和 Pull Request 来帮助改进 Muki！
+欢迎提交 Issue 和 Pull Request 来帮助改进 MUKI！
 
 - 报告误报或漏报指纹
 - 提交新的指纹规则（JSON 格式）
