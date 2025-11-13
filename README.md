@@ -48,21 +48,10 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 
 ## 🚀 安装
 
-### 从源码编译
+### 直接拉取linux版本
 
 ```bash
 git clone https://github.com/yourusername/muki.git
-cd muki
-go build -o muki
-```
-
-### 设置 Go 代理（推荐，加速依赖下载）
-
-```bash
-go env -w GOPROXY=https://goproxy.cn,direct
-go mod tidy
-go build -o muki
-```
 
 ### 从 Release 下载（推荐生产环境使用）
 
