@@ -57,7 +57,7 @@ cd muki|chmod +x muki-linux-amd64
 
 ### 从 Release 下载（推荐生产环境使用）
 
-访问 [Releases](https://github.com/yourusername/muki/releases) 页面下载预编译的二进制文件（支持 Linux / macOS / Windows）。
+访问 [Releases](https://github.com/yingfff123/MUKI/releases) 页面下载预编译的二进制文件（支持 Linux / macOS / Windows）。
 
 ---
 
