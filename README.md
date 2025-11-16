@@ -1,5 +1,5 @@
 <p>
-    <strong>一款全新的主动资产指纹识别工具</strong>
+    <strong>一款指纹识别工具</strong>
 </p>
 
 <p align="center">
